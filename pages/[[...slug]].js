@@ -15,7 +15,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.locations",
       "course.products",
       "list.elements",
-      "events.colorcode",
+      "event.colorcode",
       "course.events"
     ]
   }, preview);
@@ -45,7 +45,7 @@ export async function getStaticProps({ params }) {
       "course.locations",
       "course.products",
       "list.elements",
-      "events.colorcode",
+      "event.colorcode",
       "course.events"
       
 

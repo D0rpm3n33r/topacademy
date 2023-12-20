@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import css from "./Events.module.scss";
+import css from "./Event.module.scss";
 import { storyblokEditable } from "@storyblok/react";
 import {RichTextToHTML} from "../../../functions/storyBlokRichTextRenderer";
 

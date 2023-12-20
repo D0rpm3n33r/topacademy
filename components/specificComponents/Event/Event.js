@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import css from "./Event.module.scss";
-import { storyblokEditable } from "@storyblok/react";
+import Headermenu from "../../genericComponents/Headermenu/Headermenu";
+import Hero from "../../genericComponents/Hero/Hero";
+import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 import {RichTextToHTML} from "../../../functions/storyBlokRichTextRenderer";
 
-export default class Events extends Component {
+export default class Event extends Component {
 
 	constructor(props) {
 		super(props);
@@ -13,13 +15,16 @@ export default class Events extends Component {
 		return (
 			<>
 				<div {...storyblokEditable(this.props.blok)} className={css["experienceitem"]}>
-					<div className={css["experienceheader"]}>
-						<span className={css["experiencedate"]}>{this.props.blok.startdate} - {this.props.blok.enddate}</span>
-						<span className={css["experiencetitle"]}>{this.props.blok.title}</span>
-					</div>
-					<div className={css["experienceitemcontent"]}>
-						{RichTextToHTML({ document: this.props.blok.description })}
-					</div>
+					<Headermenu blok={this.props.menu.content}></Headermenu>
+					<main>
+						<div className={css["experienceheader"]}>
+							<span className={css["experiencedate"]}>{this.props.blok.startdate} - {this.props.blok.enddate}</span>
+							<span className={css["experiencetitle"]}>{this.props.blok.title}</span>
+						</div>
+						<div className={css["experienceitemcontent"]}>
+							{RichTextToHTML({ document: this.props.blok.description })}
+						</div>
+					</main>
 				</div>
 			</>
 		);

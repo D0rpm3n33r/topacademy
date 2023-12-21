@@ -36,7 +36,7 @@ export default class Course extends Component {
 						</div>
 						<div id="course-page__short-description" key="course-page__short-description" className={css["course-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>Locations</h2>
+								<h2 className={css["rich-text-section__title"]}></h2>
 								{this.props.blok.locations && this.props.blok.locations.map((location) => (
 									<Element blok={location} key={location._uid} />
 								))}
@@ -44,7 +44,7 @@ export default class Course extends Component {
 						</div>
 						<div id="course-page__short-description" key="course-page__short-description" className={css["course-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>Products</h2>
+								<h2 className={css["rich-text-section__title"]}></h2>
 								{this.props.blok.products && this.props.blok.products.map((product) => (
 									<Element blok={product} key={product._uid} />
 								))}

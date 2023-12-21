@@ -23,8 +23,8 @@
 
   &:hover, &:active {
     background-color: white;
-    color: $color-blue-normal;
-    border: solid 2px $color-blue-normal;
+    color: $color-red-bright;
+    border: solid 2px $color-red-bright;
   }
 }
 
@@ -37,7 +37,7 @@
       }
 
       p.main-header__dropdown-item-maintext {
-        color:$color-blue-normal;
+        color:$color-red-bright;
       
       }
       
@@ -76,7 +76,7 @@
     }
     
     &:hover {
-      background-color: $color-blue-ultra-light;
+      background-color: $color-red-bright;
     }
   }
 
@@ -110,7 +110,7 @@
       }
 
       p.main-header__dropdown-item-maintext {
-        color:$color-blue-normal;
+        color:$color-red-bright;
       
       }
       
@@ -141,7 +141,7 @@
     }
     
     &:hover {
-      background-color: $color-blue-ultra-light;
+      background-color: $color-red-bright;
     }
   }
 
@@ -181,5 +181,5 @@ p.main-header__dropdown-item-maintext {
 
 span.main-header__dropdown-item-text--highlighted {
   margin-bottom: 0;
-  @include header-font($color-blue-normal);
+  @include header-font($color-red-bright);
 }

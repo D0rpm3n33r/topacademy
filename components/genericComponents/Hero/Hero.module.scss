@@ -3,7 +3,7 @@
 
 
 .hero {
-  background-color: $color-blue-very-light;
+  background-color: $color-red-bright;
   
   &--transparent {
     @extend .hero;
@@ -101,7 +101,7 @@
     
     &--highlighted {
       @extend .hero__title;
-      color: $color-blue-normal;
+      color: $color-red-bright;
       
       &--blue {
         @extend .hero__title--highlighted;
@@ -110,7 +110,7 @@
 
       &--red {
         @extend .hero__title--highlighted;
-        color: $color-red-normal;
+        color: $color-red-bright;
       }
 
       &--yellow {

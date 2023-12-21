@@ -20,7 +20,7 @@
       @include title-font($color-yellow-normal)
     }
     &--red {
-      @include title-font($color-red-normal)
+      @include title-font($color-red-bright)
     }
     &--green {
       @include title-font($color-green-normal)
@@ -33,12 +33,12 @@
 
   &__highlighted-text {
     font-weight: 800;
-    color:$color-blue-normal;
+    color:$color-red-bright;
   }
   
   &__link {
     word-wrap: break-word;
-    color: $color-blue-normal;
+    color: $color-red-bright;
     
     > i {
       padding: 5px 15px 4px;

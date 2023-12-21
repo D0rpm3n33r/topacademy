@@ -63,8 +63,8 @@ function getDefaultTags() {
 		"googlebot": "all",
 		"robots": "all",
 		// OpenGraph
-		"og:site_name": "TopAcademy",
-		"og:title": "TopAcademy",
+		"og:site_name": "MusicAcademy",
+		"og:title": "MusicAcademy",
 		"og:description": description,
 		"og:image": imageUrl,
 		"og:type": "website",

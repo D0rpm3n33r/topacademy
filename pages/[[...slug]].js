@@ -47,9 +47,6 @@ export async function getStaticProps({ params }) {
       "list.elements",
       "event.colorcode",
       "course.events"
-      
-
-
     ]
   };
 

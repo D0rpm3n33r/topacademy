@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import css from "./Events.module.scss";
+import css from "./Event.module.scss";
 import Headermenu from "../../genericComponents/Headermenu/Headermenu";
 import Hero from "../../genericComponents/Hero/Hero";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 import {RichTextToHTML} from "../../../functions/storyBlokRichTextRenderer";
 
-export default class Events extends Component {
+export default class Event extends Component {
 
 	constructor(props) {
 		super(props);

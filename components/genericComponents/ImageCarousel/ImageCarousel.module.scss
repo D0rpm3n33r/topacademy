@@ -249,13 +249,13 @@
   &__title {
     margin-bottom: 25px;
     margin-right: 17px;
-    @include title-font(white);
+    @include title-font(black);
   }
   
   &__subtitle {
     margin-bottom: 5px;
     margin-right: 17px;
-    @include very-small-title-font(white)
+    @include very-small-title-font(black)
   }
   
   &__link {

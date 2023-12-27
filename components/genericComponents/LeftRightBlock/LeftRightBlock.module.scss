@@ -103,7 +103,7 @@
 
     &--highlighted-green {
       @extend .highlighted-content__large-text;
-      @include huge-text-font($color-green-normal);
+      @include huge-text-font($color-red-bright);
 
       &--with-navigator {
         @extend .highlighted-content__large-text--highlighted-green;
@@ -114,7 +114,7 @@
 
     &--highlighted-blue {
       @extend .highlighted-content__large-text;
-      @include huge-text-font($color-blue-normal);
+      @include huge-text-font($color-red-bright);
 
       &--with-navigator {
         @extend .highlighted-content__large-text--highlighted-blue;
